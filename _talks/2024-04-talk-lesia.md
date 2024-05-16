@@ -4,7 +4,7 @@ collection: talks
 type: "Conference proceedings talk"
 permalink: /talks/2024-04-talk-lesia
 venue: "Observatoire de Paris"
-date: 2024-04
+date: 2024-04-01
 location: "Meudon, France"
 ---
 
