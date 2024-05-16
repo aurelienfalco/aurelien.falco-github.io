@@ -9,14 +9,14 @@ redirect_from:
 
 Welcome, welcome, and enjoy your stay. Please have a seat!
 
-  i______i
-  I______I
-  I      I
-  I______I
- /      /I
-(______( I
-I "    I "
-I      I
+      i______i
+      I______I
+      I      I
+      I______I
+     /      /I
+    (______( I
+    I "    I "
+    I      I
 
 
 
@@ -26,13 +26,13 @@ My research activities
 I am interested in the study of (exo-)planetary atmospheres, from Hot Jupiters, through Super-Earths, to good ol' [Pluto](https://www.youtube.com/watch?v=YJPHK5NNtpQ&pp=ygUWZG9uJ3QgdGFsayBhYm91dCBwbHV0bw%3D%3D).
 My formation in numerical methods and High Performance Computing has allowed me  to plunge into the depths of large climate simulations.
 
-         ,MMM8&&&.
-    _...MMMMM88&&&&..._
- .::'''MMMMM88&&&&&&'''::.
-::     MMMMM88&&&&&&     ::
-'::....MMMMM88&&&&&&....::'
-   `''''MMMMM88&&&&''''`
-         'MMM8&&&'
+             ,MMM8&&&.
+        _...MMMMM88&&&&..._
+     .::'''MMMMM88&&&&&&'''::.
+    ::     MMMMM88&&&&&&     ::
+    '::....MMMMM88&&&&&&....::'
+       `''''MMMMM88&&&&''''`
+             'MMM8&&&'
 
 <!--
 Create content & metadata
