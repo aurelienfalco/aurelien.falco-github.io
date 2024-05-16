@@ -1,0 +1,987 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% hmat %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{hmat1,
+  title={A sparse matrix arithmetic based on $\mathcal{H}$-matrices. part {I}: Introduction to $\mathcal{H}$-matrices},
+  author={Wolfgang Hackbusch},
+  journal={Computing},
+  volume={62},
+  number={2},
+  pages={89--108},
+  year={1999},
+  publisher={Springer}
+}
+@article {hackbusch1999,
+   title={{A sparse matrix arithmetic based on $\mathcal{H}$-matrices. part {I}: Introduction to $\mathcal{H}$-matrices}},
+   author = {Hackbusch, W.},
+   affiliation = {Max Planck Institut Mathematik in den Naturwissenschaften Insel str. 22--26, D-04103 Leipzig, Germany, e-mail: wh@mis.mpg.de DE},
+   journal = {Computing},
+   publisher = {Springer Wien},
+   issn = {0010-485X},
+   keyword = {Informatique},
+   pages = {89-108},
+   volume = {62},
+   issue = {2},
+   url = {http://dx.doi.org/10.1007/s006070050015},
+   note = {10.1007/s006070050015},
+   abstract = {A class of matrices ( -matrices) is introduced which have the following properties. (i) They are sparse in the sense that only few data are needed for their representation. (ii) The matrix-vector multiplication is of almost linear complexity. (iii) In general, sums and products of these matrices are no longer in the same set, but their truncations to the -matrix format are again of almost linear complexity. (iv) The same statement holds for the inverse of an -matrix. This paper is the first of a series and is devoted to the first introduction of the -matrix concept. Two concret formats are described. The first one is the simplest possible. Nevertheless, it allows the exact inversion of tridiagonal matrices. The second one is able to approximate discrete integral operators.},
+   year = {1999}
+}
+@article {Hackbusch1999b,
+   author = {Hackbusch, W. and Khoromskij, B. N.},
+   title = {{A Sparse $\mathcal{H}$-Matrices Arithmetic.}},
+   journal = {Computing},
+   publisher = {Springer Wien},
+   issn = {0010-485X},
+   keyword = {Computer Science},
+   pages = {21-47},
+   volume = {64},
+   issue = {1},
+   abstract = {The preceding Part I of this paper has introduced a class of matrices ( &#139 -matrices) which are data-sparse and allow an approximate matrix arithmetic of almost linear complexity. The matrices discussed in Part I are able to approximate discrete integral operators in the case of one spatial dimension. In the present Part II, the construction of &#139 -matrices is explained for FEM and BEM applications in two and three spatial dimensions. The orders of complexity of the various matrix operations are exactly the same as in Part I. In particular, it is shown that the applicability of &#139 -matrices does not require a regular mesh. We discuss quasi-uniform unstructured meshes and the case of composed surfaces as well.},
+   year = {2000}
+}
+@article{hackbusch2002direct,
+  title={Direct domain decomposition using the hierarchical matrix technique},
+  author={Hackbusch, Wolfgang},
+  year={2002}
+}
+@book{hackbusch2015hierarchical,
+  title={{Hierarchical matrices: Algorithms and analysis}},
+  author={Hackbusch, Wolfgang},
+  volume={49},
+  year={2015},
+  publisher={Springer}
+}
+@article{hackbusch2016survey,
+  title={Survey on the technique of hierarchical matrices},
+  author={Hackbusch, Wolfgang},
+  journal={Vietnam Journal of Mathematics},
+  volume={44},
+  number={1},
+  pages={71--101},
+  year={2016},
+  publisher={Springer}
+}
+
+@article{Borm2003405,
+title = "Introduction to hierarchical matrices with applications",
+journal = "Engineering Analysis with Boundary Elements",
+volume = "27",
+number = "5",
+pages = "405 - 422",
+year = "2003",
+note = "Large scale problems using BEM",
+issn = "0955-7997",
+doi = "10.1016/S0955-7997(02)00152-2",
+url = "http://www.sciencedirect.com/science/article/pii/S0955799702001522",
+author = "Steffen B{\"o}rm and Lars Grasedyck and Wolfgang Hackbusch",
+keywords = "Hierarchical matrices",
+keywords = "Data-sparse approximations",
+keywords = "Formatted matrix operations",
+keywords = "Formatted matrix operations",
+keywords = "Fast solvers",
+keywords = "Lyapunov equations",
+keywords = "Riccati equations",
+abstract = "We give a short introduction to methods for the data-sparse approximation of matrices resulting from the discretisation of non-local operators occurring in boundary integral methods, as the inverses of partial differential operators or as solutions of control problems.
+
+The result of the approximation will be so-called hierarchical matrices (or short $\mathcal{H}$-Matrices). These matrices form a subset of the set of all matrices and have a data-sparse representation. The essential operations for these matrices (matrix-vector and matrix–matrix multiplication, addition and inversion) can be performed in, up to logarithmic factors, optimal complexity.
+
+We give a review of specialised variants of $\mathcal{H}$-Matrices, especially of $\mathcal{H}^2$-matrices, and finally consider applications of the different methods to problems from integral equations, partial differential equations and control theory."
+}
+@article{BormGrasedyck2004,
+title={{Low-Rank Approximation of Integral Operators by Interpolation}},
+year={2004},
+issn={0010-485X},
+journal={Computing},
+volume={72},
+issue={3-4},
+doi={10.1007/s00607-003-0036-0},
+url={http://dx.doi.org/10.1007/s00607-003-0036-0},
+publisher={Springer-Verlag},
+author={B{\"o}rm, Steffen and Grasedyck, Lars},
+pages={325-332},
+language={English}
+}
+
+@techreport{Borm2004,
+author = {Steffen B{\"o}rm and Lars Grasedyck and Wolfgang Hackbusch},
+title = {{Hierarchical Matrices}},
+year = {2004},
+institution = {Max Planck Institut für Mathematik},
+url = {http://www.mis.mpg.de/de/publications/andere-reihen/ln/lecturenote-2103.html},
+}
+@article{borm2004low,
+  title={Low-rank approximation of integral operators by interpolation},
+  author={B{\"o}rm, Steffen and Grasedyck, Lars},
+  journal={Computing},
+  volume={72},
+  number={3},
+  pages={325--332},
+  year={2004},
+  publisher={Springer}
+}
+@ARTICLE{borm2017accumulated,
+   author = {{B{\"o}rm}, Steffen},
+    title = "{Hierarchical matrix arithmetic with accumulated updates}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1703.09085},
+ primaryClass = "math.NA",
+ keywords = {Mathematics - Numerical Analysis, 65F05, 65F08, 65F30, 65N22, 65N38},
+     year = 2017,
+    month = mar,
+   adsurl = {http://adsabs.harvard.edu/abs/2017arXiv170309085B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{bebendorf2000approximation,
+  title={Approximation of boundary element matrices},
+  author={Bebendorf, Mario},
+  journal={Numerische Mathematik},
+  volume={86},
+  number={4},
+  pages={565--589},
+  year={2000},
+  publisher={Springer}
+}
+@article{Bebendorf2003adaptive,
+title={{Adaptive Low-Rank Approximation of Collocation Matrices}},
+year={2003},
+issn={0010-485X},
+journal={Computing},
+volume={70},
+issue={1},
+doi={10.1007/s00607-002-1469-6},
+url={http://dx.doi.org/10.1007/s00607-002-1469-6},
+publisher={Springer-Verlag},
+keywords={AMS Subject Classification: 41A63, 41A80, 65D05, 65D15, 65F05, 65F30.; Keywords: Integral equations, hierarchical matrices, low-rank approximation, fast solvers.},
+author={Bebendorf, M. and Rjasanow, S.},
+pages={1-24},
+language={English}
+}
+@article{Bebendorf2005,
+title={Hierarchical {LU} {D}ecomposition-based {P}reconditioners for {BEM}},
+year={2005},
+issn={0010-485X},
+journal={Computing},
+volume={74},
+issue={3},
+doi={10.1007/s00607-004-0099-6},
+url={http://dx.doi.org/10.1007/s00607-004-0099-6},
+publisher={Springer-Verlag},
+keywords={65F05; 65F30; 65F50; Data-sparse approximations; hierarchical matrices; fast solvers; boundary elements},
+author={Bebendorf, M.},
+pages={225-247},
+language={English}
+}
+@article{BebendorfKriemann2005,
+ author = {Bebendorf, M. and Kriemann, R.},
+ title = {Fast parallel solution of boundary integral equations and related problems},
+ journal = {Comput. Vis. Sci.},
+ issue_date = {December 2005},
+ volume = {8},
+ number = {3-4},
+ month = dec,
+ year = {2005},
+ issn = {1432-9360},
+ pages = {121--135},
+ numpages = {15},
+ url = {http://dx.doi.org/10.1007/s00791-005-0001-x},
+ doi = {10.1007/s00791-005-0001-x},
+ acmid = {1342132},
+ publisher = {Springer-Verlag},
+ address = {Berlin, Heidelberg},
+ keywords = {Hierarchical matrices, Integral equations, Parallel solvers},
+}
+@book{bebendorf2008hierarchical,
+  title={Hierarchical matrices},
+  author={Bebendorf, Mario},
+  year={2008},
+  publisher={Springer}
+}
+@incollection{Bebendorf2008,
+title={{A Purely Algebraic Approach to Preconditioning Based on Hierarchical {LU} Factorizations}},
+year={2008},
+isbn={978-3-540-69776-3},
+booktitle={Numerical Mathematics and Advanced Applications},
+editor={Kunisch, Karl and Of, Günther and Steinbach, Olaf},
+doi={10.1007/978-3-540-69777-0_15},
+url={http://dx.doi.org/10.1007/978-3-540-69777-0_15},
+publisher={Springer Berlin Heidelberg},
+author={Bebendorf, M. and Fischer, T.},
+pages={135-142}
+}
+
+@article{benedetti2008fast,
+  title={A fast {3D} dual boundary element method based on hierarchical matrices},
+  author={Benedetti, I. and Aliabadi, MH and Davi, G.},
+  journal={International journal of solids and structures},
+  volume={45},
+  number={7},
+  pages={2355--2376},
+  year={2008},
+  publisher={Elsevier}
+}
+@article{Banjai2008hierarchical,
+  title={Hierarchical matrix techniques for low-and high-frequency {H}elmholtz problems},
+  author={Banjai, L. and Hackbusch, W.},
+  journal={IMA journal of numerical analysis},
+  volume={28},
+  number={1},
+  pages={46--79},
+  year={2008},
+  publisher={Oxford University Press}
+}
+% covariance monte carlo simulations
+@article{litvinenko2017likelihood,
+  title={Likelihood Approximation With Hierarchical Matrices For Large Spatial Datasets},
+  author={Litvinenko, Alexander and Sun, Ying and Genton, Marc G and Keyes, David},
+  journal={arXiv preprint arXiv:1709.04419},
+  year={2017}
+}
+@article{ambikasaran2014inverse,
+  title={The inverse fast multipole method},
+  author={Ambikasaran, Sivaram and Darve, Eric},
+  journal={arXiv preprint arXiv:1407.1572},
+  year={2014}
+}
+
+
+@phdthesis{Grasedyck2001Phd,
+  title={Theorie und Anwendungen hierarchischer Matrizen},
+  author={Grasedyck, L.},
+  year={2001},
+  school={UB Kiel}
+}
+@article {Grasedyck2003,
+  author = {Grasedyck, Lars and Hackbusch, Wolfgang},
+  affiliation = {Max-Planck-Institute for Mathematics in the Sciences Inselstr. 22-26 D-04103 Leipzig Germany},
+  title = {{Construction and Arithmetics of $\mathcal{H}$-Matrices}},
+  journal = {Computing},
+  publisher = {Springer Wien},
+  issn = {0010-485X},
+  keyword = {Computer Science},
+  pages = {295-334},
+  volume = {70},
+  issue = {4},
+  url = {http://dx.doi.org/10.1007/s00607-003-0019-1},
+  note = {10.1007/s00607-003-0019-1},
+  abstract = {In previous papers hierarchical matrices were introduced which are data-sparse and allow an approximate matrix arithmetic of nearly optimal complexity. In this paper we analyse the complexity (storage, addition, multiplication and inversion) of the hierarchical matrix arithmetics. Two criteria, the sparsity and idempotency, are sufficient to give the desired bounds. For standard finite element and boundary element applications we present a construction of the hierarchical matrix format for which we can give explicit bounds for the sparsity and idempotency.},
+  year = {2003}
+}
+
+@article{grasedyck2004adaptive,
+  title={{Adaptive geometrically balanced clustering of $\mathcal{H}$-matrices}},
+  author={Grasedyck, Lars and Hackbusch, Wolfgang and Le Borne, Sabine},
+  journal={Computing},
+  volume={73},
+  number={1},
+  pages={1--23},
+  year={2004},
+  publisher={Springer}
+}
+@article{grasedyck2005adaptive,
+year={2005},
+issn={0010-485X},
+journal={Computing},
+volume={74},
+issue={3},
+doi={10.1007/s00607-004-0103-1},
+title={{Adaptive Recompression of $\mathcal{H}$-Matrices for BEM}},
+url={http://dx.doi.org/10.1007/s00607-004-0103-1},
+publisher={Springer-Verlag},
+keywords={65F05; 65F30; 65F50; Hierarchical matrices; data-sparse approximations; formatted matrix operations; fast solvers; preconditioning; boundary elements},
+author={Grasedyck, Lars},
+pages={205-223},
+language={English}
+}
+@article {Grasedyck2008,
+  author = {Grasedyck, Lars and Kriemann, Ronald and Le Borne, Sabine},
+  affiliation = {Max-Planck-Institute for Mathematics in the Sciences 04103 Leipzig Germany},
+  title = {Parallel black box $\mathcal {H}$-{LU} preconditioning for elliptic boundary value problems},
+  journal = {Computing and Visualization in Science},
+  publisher = {Springer Berlin / Heidelberg},
+  issn = {1432-9360},
+  keyword = {Mathématiques et Statistique},
+  pages = {273-291},
+  volume = {11},
+  issue = {4},
+  url = {http://dx.doi.org/10.1007/s00791-008-0098-9},
+  note = {10.1007/s00791-008-0098-9},
+  abstract = {Hierarchical ( $\mathcal {H}$-) matrices provide a data-sparse way to approximate fully populated matrices. The two basic steps in the construction of an $$\mathcal {H}$$-matrix are (a) the hierarchical construction of a matrix block partition, and (b) the blockwise approximation of matrix data by low rank matrices. In the context of finite element discretisations of elliptic boundary value problems, $$\mathcal {H}$$-matrices can be used for the construction of preconditioners such as approximate $$\mathcal {H}$$-LU factors. In this paper, we develop a new black box approach to construct the necessary partition. This new approach is based on the matrix graph of the sparse stiffness matrix and no longer requires geometric data associated with the indices like the standard clustering algorithms. The black box clustering and a subsequent $$\mathcal {H}$$-LU factorisation have been implemented in parallel, and we provide numerical results in which the resulting black box $$\mathcal {H}$$-LU factorisation is used as a preconditioner in the iterative solution of the discrete (three-dimensional) convection-diffusion equation.},
+  year = {2008}
+}
+@article{grasedyck2008performance,
+  title={{Performance of $\mathcal{H}$-LU preconditioning for sparse matrices}},
+  author={Grasedyck, Lars and Hackbusch, Wolfgang and Kriemann, Ronald},
+  journal={Computational Methods in Applied Mathematics Comput. Methods Appl. Math.},
+  volume={8},
+  number={4},
+  pages={336--349},
+  year={2008}
+}
+@article{hertel2018large,
+  title={Large-scale magnetostatic field calculation in finite element micromagnetics with $\mathcal{H}^2$-matrices},
+  author={Hertel, Riccardo and Christophersen, Sven and B{\"o}rm, Steffen},
+  journal={arXiv preprint arXiv:1811.05731},
+  year={2018}
+}
+@article{kishore2017literature,
+  title={Literature survey on low rank approximation of matrices},
+  author={Kishore Kumar, N. and Schneider, Jan},
+  journal={Linear and Multilinear Algebra},
+  volume={65},
+  number={11},
+  pages={2212--2244},
+  year={2017},
+  publisher={Taylor \& Francis}
+}
+@phdthesis{KriemannPhd2004,
+  author = {Kriemann, Ronald},
+  title = {{Parallele Algorithmen für $\mathcal{H}$-Matrizen}},
+  school = {Universität Kiel},
+  year = {2004},
+  pages = {VI, 205},
+  type={Dissertation},
+  institution = {{Max Planck Institute for Mathematics in the Sciences}},
+}
+@article {Kriemann2005,
+  author = {Kriemann, Ronald},
+  affiliation = {Max-Planck-Institute for Mathematics in the Sciences Inselstr. 22–26 04103 Leipzig Germany},
+  title = {{Parallel $\mathcal{H}$-Matrices Arithmetics on Shared Memory Systems}},
+  journal = {Computing},
+  publisher = {Springer Wien},
+  issn = {0010-485X},
+  keyword = {Computer Science},
+  pages = {273-297},
+  volume = {74},
+  issue = {3},
+  url = {http://dx.doi.org/10.1007/s00607-004-0102-2},
+  note = {10.1007/s00607-004-0102-2},
+  abstract = {$\mathcal{H}$-Matrices, as they were introduced in previous papers, allow the usage of the common matrix arithmetic in an efficient, almost optimal way. This article is concerned with the parallelisation of this arithmetics, in particular matrix building, matrix-vector multiplication, matrix multiplication and matrix inversion.},
+  year = {2005}
+}
+@phdthesis{lize2014,
+  author="Benoît Lizé",
+  title="Résolution Directe Rapide pour les Éléments
+  Finis de Frontière en Électromagnétisme et
+  Acoustique : $\mathcal{H}$-Matrices. Parallélisme et
+  Applications Industrielles.",
+  year="2014",
+  school="Université Paris 13"
+}
+@article{lintner2004eigenvalue,
+  title={{The eigenvalue problem for the 2D Laplacian in $\mathcal{H}$-matrix arithmetic and application to the heat and wave equation}},
+  author={Lintner, M.},
+  journal={Computing},
+  volume={72},
+  number={3},
+  pages={293--323},
+  year={2004},
+  publisher={Springer}
+}
+@incollection{ying2009fast,
+  title={Fast algorithms for boundary integral equations},
+  author={Ying, Lexing},
+  booktitle={Multiscale Modeling and Simulation in Science},
+  pages={139--193},
+  year={2009},
+  publisher={Springer}
+}
+@article{fan2018multiscale,
+  title={A multiscale neural network based on hierarchical matrices},
+  author={Fan, Yuwei and Lin, Lin and Ying, Lexing and Zepeda-N{\'u}nez, Leonardo},
+  journal={arXiv preprint arXiv:1807.01883},
+  year={2018}
+}
+
+%% ACA, HCA, ...
+@article{dölz2019best,
+  title={On the best approximation of the hierarchical matrix product},
+  author={Dölz, Jürgen and Harbrecht, Helmut and Multerer, Michael D},
+  journal={SIAM Journal on Matrix Analysis and Applications},
+  volume={40},
+  number={1},
+  pages={147--174},
+  year={2019},
+  publisher={{SIAM}}
+}
+@article{goreinov1997theory,
+  title={A theory of pseudoskeleton approximations},
+  author={Goreinov, Sergei A and Tyrtyshnikov, Eugene E and Zamarashkin, Nickolai L},
+  journal={Linear algebra and its applications},
+  volume={261},
+  number={1-3},
+  pages={1--21},
+  year={1997},
+  publisher={Elsevier}
+}
+@article{Borm2005,
+title={Hybrid cross approximation of integral operators},
+year={2005},
+issn={0029-599X},
+journal={Numerische Mathematik},
+volume={101},
+issue={2},
+doi={10.1007/s00211-005-0618-1},
+url={http://dx.doi.org/10.1007/s00211-005-0618-1},
+publisher={Springer-Verlag},
+keywords={45B05; 65N38; 68P05},
+author={B{\"o}rm, Steffen and Grasedyck, Lars},
+pages={221-249},
+language={English}
+}
+@article{Bebendorf2011,
+title={{Adaptive Cross Approximation of Multivariate Functions}},
+year={2011},
+issn={0176-4276},
+journal={Constructive Approximation},
+volume={34},
+issue={2},
+doi={10.1007/s00365-010-9103-x},
+url={http://dx.doi.org/10.1007/s00365-010-9103-x},
+publisher={Springer-Verlag},
+keywords={Data compression; Dimensionality reduction; Adaptive cross approximation; 41A80; 41A63; 15A69},
+author={Bebendorf, M.},
+pages={149-179},
+language={English}
+}
+
+%% extended admissibility condition
+@ARTICLE{zhao2017equivalent,
+  author={Y. Zhao and J. Mao},
+  journal={IEEE Transactions on Microwave Theory and Techniques},
+  title={{Equivalent Surface Impedance-Based Mixed Potential Integral Equation Accelerated by Optimized $\mathcal{H}$-Matrix for 3-D Interconnects}},
+  year={2017},
+  volume={PP},
+  number={99},
+  pages={1-13},
+  keywords={Conductors;Green's function methods;Impedance;Integral equations;Integrated circuit interconnections;Mathematical model;Surface impedance;Equivalent surface impedance (ESI);H-LU;mixed potential integral equation (MPIE);optimized hierarchical matrix (H-matrix).},
+  doi={10.1109/TMTT.2017.2731956},
+  ISSN={0018-9480},
+  month={},}
+%%%%%%%%%%%%%%%%%%%%%% different classes of H formats %%%%%%%%%%%%%%%%%%%%%%%%%
+@phdthesis{ambikasaran2013fast,
+  title={Fast algorithms for dense numerical linear algebra and applications},
+  author={Ambikasaran, Sivaram},
+  year={2013},
+  school={Stanford University Stanford}
+}
+%% blr
+@phdthesis{mary2017block,
+  title={{Block Low-Rank multifrontal solvers: complexity, performance, and scalability}},
+  author={Mary, Theo},
+  year={2017},
+  school={Universit\'e de Toulouse}
+}
+@inproceedings{anton2016block,
+  title={{A Block Low-Rank multithreaded factorization for dense BEM operators}},
+  author={Anton, J., C. Ashcraft, and C. Weisbecker},
+  booktitle={SIAM Conference on Parallel Processing (SIAM PP16). Paris, France},
+  year={2016},
+}
+@inproceedings{sergent2016controlling,
+  TITLE = {{Controlling the Memory Subscription of Distributed Applications with a Task-Based Runtime System}},
+  AUTHOR = {Sergent, Marc and Goudin, David and Thibault, Samuel and Aumage, Olivier},
+  URL = {https://hal.inria.fr/hal-01284004},
+  BOOKTITLE = {{21st International Workshop on High-Level Parallel Programming Models and Supportive Environments}},
+  ADDRESS = {Chicago, United States},
+  YEAR = {2016},
+  MONTH = May,
+  KEYWORDS = {memory control ; task-based run-time systems ; compressed linear algebra ; distributed computing},
+  PDF = {https://hal.inria.fr/hal-01284004/file/PID4127657.pdf},
+  HAL_ID = {hal-01284004},
+  HAL_VERSION = {v1},
+}
+@article{amestoy2018bridging,
+  title={{Bridging the gap between flat and hierarchical low-rank matrix formats: the multilevel BLR format}},
+  author={Amestoy, Patrick R. and Buttari, Alfredo and L'Excellent, Jean-Yves and Mary, Theo},
+  year={2018}
+}
+%% h2
+@inproceedings{hackbusch2000h2,
+  title={On $\mathcal{H}^{2}$-{Matrices}},
+  author={Hackbusch, Wolfgang and Khoromskij, Boris and Sauter, Stefan A.},
+  booktitle={Lectures on Applied Mathematics: Proceedings of the Symposium Organized by the Sonderforschungsbereich 438 on the Occasion of Karl-Heinz Hoffmann’s 60th Birthday, Munich, June 30--July 1, 1999},
+  pages={9},
+  year={2000},
+  organization={Springer Science \& Business Media}
+}
+@article{hackbusch2002h2,
+  title={$\mathcal{H}^2$-matrix approximation of integral operators by interpolation},
+  author={Hackbusch, Wolfgang and B{\"o}rm, Steffen},
+  journal={Applied Numerical Mathematics},
+  volume={43},
+  number={1},
+  pages={129--143},
+  year={2002},
+  publisher={Elsevier}
+}
+
+@article{borm2007data,
+  title={Data-sparse approximation of non-local operators by $\mathcal{H}^2$-matrices},
+  author={B{\"o}rm, Steffen},
+  journal={Linear algebra and its applications},
+  volume={422},
+  number={2},
+  pages={380--403},
+  year={2007},
+  publisher={Elsevier}
+}
+
+@article{borm2017directional,
+author={B{\"o}rm, Steffen},
+title = {Directional $\mathcal{H}^2$-matrix compression for high-frequency problems},
+journal = {Numerical Linear Algebra with Applications},
+volume = {24},
+number = {6},
+pages = {e2112},
+keywords = {data-sparse approximation, Helmholtz equation, hierarchical matrices, high-frequency problems, matrix compression},
+doi = {10.1002/nla.2112},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/nla.2112},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/nla.2112},
+note = {e2112 nla.2112},
+abstract = {Summary Standard numerical algorithms, such as the fast multipole method or -matrix schemes, rely on low-rank approximations of the underlying kernel function. For high-frequency problems, the ranks grow rapidly as the mesh is refined, and standard techniques are no longer attractive. Directional compression techniques solve this problem by using decompositions based on plane waves. Taking advantage of hierarchical relations between these waves' directions, an efficient approximation is obtained. This paper is dedicated to directional -matrices that employ local low-rank approximations to handle directional representations efficiently. The key result is an algorithm that takes an arbitrary matrix and finds a quasi-optimal approximation of this matrix as a directional -matrix using a prescribed block tree. The algorithm can reach any given accuracy, and the approximation requires only units of storage, where n is the matrix dimension, κ is the wave number, and k is the local rank. In particular, we have a complexity of if κ is constant and for high-frequency problems characterized by κ2∼n. Because the algorithm can be applied to arbitrary matrices, it can serve as the foundation of fast techniques for constructing preconditioners.},
+year = {2017}
+}
+%%butterfly
+@article{li2015butterfly,
+  title={Butterfly factorization},
+  author={Li, Yingzhou and Yang, Haizhao and Martin, Eileen R and Ho, Kenneth L and Ying, Lexing},
+  journal={Multiscale Modeling \& Simulation},
+  volume={13},
+  number={2},
+  pages={714--732},
+  year={2015},
+  publisher={SIAM}
+}
+
+%% hodlr
+@article{lai2014fast,
+  title={A fast direct solver for high frequency scattering from a large cavity in two dimensions},
+  author={Lai, Jun and Ambikasaran, Sivaram and Greengard, Leslie F.},
+  journal={SIAM Journal on Scientific Computing},
+  volume={36},
+  number={6},
+  pages={B887--B903},
+  year={2014},
+  publisher={{SIAM}}
+}
+@article{agullo2016nearly,
+  title={Nearly optimal fast preconditioning of symmetric positive definite matrices},
+  author={Agullo, Emmanuel and Darve, Eric and Giraud, Luc and Harness, Yuval},
+  year={2016},
+  school={Inria Bordeaux Sud-Ouest}
+}
+@article{agullo:hal-01940053,
+  TITLE = {{Low-Rank Factorizations in Data Sparse Hierarchical Algorithms for Preconditioning Symmetric Positive Definite Matrices}},
+  AUTHOR = {Agullo, Emmanuel and Darve, Eric and Giraud, Luc and Harness, Yuval},
+  URL = {https://hal.inria.fr/hal-01940053},
+  JOURNAL = {{SIAM Journal on Matrix Analysis and Applications}},
+  PUBLISHER = {{Society for Industrial and Applied Mathematics}},
+  VOLUME = {39},
+  NUMBER = {4},
+  PAGES = {1701-1725},
+  YEAR = {2018},
+  MONTH = Oct,
+  PDF = {https://hal.inria.fr/hal-01940053/file/SPD_WHODLR_Precond_new3.pdf},
+  HAL_ID = {hal-01940053},
+  HAL_VERSION = {v1},
+}
+
+@article{aminfar2016blr,
+  title={A fast block low-rank dense solver with applications to finite-element matrices},
+  author={Aminfar, Amirhossein and Ambikasaran, Sivaram and Darve, Eric},
+  journal={Journal of Computational Physics},
+  volume={304},
+  pages={170--188},
+  year={2016},
+  publisher={Elsevier}
+}
+@article{kong2011adaptive,
+  title={An adaptive fast direct solver for boundary integral equations in two dimensions},
+  author={Kong, Wai Yip and Bremer, James and Rokhlin, Vladimir},
+  journal={Applied and Computational Harmonic Analysis},
+  volume={31},
+  number={3},
+  pages={346--369},
+  year={2011},
+  publisher={Elsevier}
+}
+%%%%% hss %%%%%%%%
+@INPROCEEDINGS{fernando2017hss,
+author={I. D. Fernando and S. Jayasena and M. Fernando and H. Sundar},
+booktitle={2017 46th International Conference on Parallel Processing (ICPP)},
+title={{A Scalable Hierarchical Semi-Separable Library for Heterogeneous Clusters}},
+year={2017},
+pages={513-522},
+keywords={Buildings;Complexity theory;Integral equations;Integrated circuits;Interpolation;Linear systems;Matrix decomposition;Distributed Linear Algebra;Fast Direct Solvers;Heterogenerous computing;Hierarchical matrices;Integral Equations},
+doi={10.1109/ICPP.2017.60},
+month={Aug},}
+@phdthesis{weisbecker2013blrmumps,
+  title={{Improving multifrontal solvers by means of algebraic Block Low-Rank representations}},
+  author={Clément Weisbecker},
+  year={2013},
+  school={Institut National Polytechnique de Toulouse (INP Toulouse)}
+}
+@article{amestoy2015improving,
+  title={Improving multifrontal methods by means of block low-rank representations},
+  author={Amestoy, Patrick R. and Ashcraft, Cleve and Boiteau, Olivier and Buttari, Alfredo and L'Excellent, Jean-Yves and Weisbecker, Cl{\'e}ment},
+  journal={SIAM Journal on Scientific Computing},
+  volume={37},
+  number={3},
+  pages={A1451--A1474},
+  year={2015},
+  publisher={{SIAM}}
+}
+@techreport{amestoy2016complexity,
+  title={{On the Complexity of the Block Low-Rank Multifrontal Factorization}},
+  author={Amestoy, Patrick R. and Buttari, Alfredo and L'Excellent, Jean-Yves and Mary, Theo},
+  PAGES = {34},
+  INSTITUTION = {IRIT},
+  YEAR = {2016},
+  MONTH = {May},
+}
+@article{amestoy2017complexity,
+  title={{On the Complexity of the Block Low-Rank Multifrontal Factorization}},
+  author={Amestoy, Patrick R. and Buttari, Alfredo and L'Excellent, Jean-Yves and Mary, Theo},
+  journal={SIAM Journal on Scientific Computing},
+  volume={39},
+  number={4},
+  pages={A1710--A1740},
+  year={2017},
+  publisher={{SIAM}}
+}
+
+@article{rouet2015distributed,
+  title={A distributed-memory package for dense {H}ierarchically {S}emi-{S}eparable matrix computations using randomization},
+  author={Rouet, Fran{\c{c}}ois-Henry and Li, Xiaoye S. and Ghysels, Pieter and Napov, Artem},
+  journal={arXiv preprint arXiv:1503.05464},
+  year={2015}
+}
+@article{ghysels2016efficient,
+  title={An efficient multicore implementation of a novel {HSS}-structured multifrontal solver using randomized sampling},
+  author={Ghysels, Pieter and Li, Xiaoye S. and Rouet, Fran{\c{c}}ois-Henry and Williams, Samuel and Napov, Artem},
+  journal={SIAM Journal on Scientific Computing},
+  volume={38},
+  number={5},
+  pages={S358--S384},
+  year={2016},
+  publisher={{SIAM}}
+}
+@inproceedings{faverge2015use,
+  title={On the {U}se of $\mathcal{H}$-{M}atrices {A}rithmetic in {P}a{S}ti{X}, {A} {P}reliminary {S}tudy},
+  author={Faverge, Mathieu and Pichon, Gr{\'e}goire and Ramet, Pierre and Roman, Jean and Aminfar, A. and Darve, E. and Dudley, C.},
+  booktitle={Workshop on Sparse Direct Solvers},
+  year={2015}
+}
+@article{chandrasekaran2005some,
+  title={Some fast algorithms for sequentially semiseparable representations},
+  author={Chandrasekaran, Shiv and Dewilde, Patrick and Gu, Ming and Pals, T. and Sun, Xiaorui and van der Veen, Alle-Jan and White, Daniel},
+  journal={SIAM Journal on Matrix Analysis and Applications},
+  volume={27},
+  number={2},
+  pages={341--364},
+  year={2005},
+  publisher={{SIAM}}
+}
+@article{chandrasekaran2006fast,
+  title={A fast {ULV} decomposition solver for hierarchically semiseparable representations},
+  author={Chandrasekaran, Shiv and Gu, Ming and Pals, Timothy},
+  journal={SIAM Journal on Matrix Analysis and Applications},
+  volume={28},
+  number={3},
+  pages={603--622},
+  year={2006},
+  publisher={{SIAM}}
+}
+@article{ambikasaran2013hss,
+  title={An $\mathcal{O}({N}\log{N})$ {F}ast {D}irect {S}olver for {P}artial {H}ierarchically {S}emi-{S}eparable {M}atrices},
+  author={Ambikasaran, Sivaram and Darve, Eric},
+  journal={Journal of Scientific Computing},
+  volume={57},
+  number={3},
+  pages={477--501},
+  year={2013},
+  publisher={Springer}
+}
+@article{aminfar2016precond,
+  title={A fast, memory efficient and robust sparse preconditioner based on a multifrontal approach with applications to finite-element matrices},
+  author={Aminfar, AmirHossein and Darve, Eric},
+  journal={International Journal for Numerical Methods in Engineering},
+  year={2016},
+  publisher={Wiley Online Library}
+}
+@article{henon2006parallel,
+  title={A parallel multistage {ILU} factorization based on a hierarchical graph decomposition},
+  author={Hénon, Pascal and Saad, Yousef},
+  journal={SIAM Journal on Scientific Computing},
+  volume={28},
+  number={6},
+  pages={2266--2293},
+  year={2006},
+  publisher={{SIAM}}
+}
+@article{martinsson2009fast,
+  title={A fast direct solver for a class of elliptic partial differential equations},
+  author={Martinsson, Per-Gunnar},
+  journal={Journal of Scientific Computing},
+  volume={38},
+  number={3},
+  pages={316--330},
+  year={2009},
+  publisher={Springer}
+}
+@article{martinsson2011fast,
+  title={A fast randomized algorithm for computing a hierarchically semiseparable representation of a matrix},
+  author={Martinsson, Per-Gunnar},
+  journal={SIAM Journal on Matrix Analysis and Applications},
+  volume={32},
+  number={4},
+  pages={1251--1274},
+  year={2011},
+  publisher={{SIAM}}
+}
+@article{xia2009superfast,
+  title={Superfast multifrontal method for large structured linear systems of equations},
+  author={Xia, Jianlin and Chandrasekaran, Shivkumar and Gu, Ming and Li, Xiaoye S.},
+  journal={SIAM Journal on Matrix Analysis and Applications},
+  volume={31},
+  number={3},
+  pages={1382--1411},
+  year={2009},
+  publisher={{SIAM}}
+}
+@article{xia2010fast,
+  title={Fast algorithms for hierarchically semiseparable matrices},
+  author={Xia, Jianlin and Chandrasekaran, Shivkumar and Gu, Ming and Li, Xiaoye S.},
+  journal={Numerical Linear Algebra with Applications},
+  volume={17},
+  number={6},
+  pages={953--976},
+  year={2010},
+  publisher={Wiley Online Library}
+}
+@article{xia2013randomized,
+  title={Randomized sparse direct solvers},
+  author={Xia, Jianlin},
+  journal={SIAM Journal on Matrix Analysis and Applications},
+  volume={34},
+  number={1},
+  pages={197--227},
+  year={2013},
+  publisher={{SIAM}}
+}
+@article{wang2016parallel,
+  title={A parallel geometric multifrontal solver using hierarchically semiseparable structure},
+  author={Wang, Shen and Li, Xiaoye S. and Rouet, Fran{\c{c}}ois-Henry and Xia, Jianlin and De Hoop, Maarten V},
+  journal={ACM Transactions on Mathematical Software (TOMS)},
+  volume={42},
+  number={3},
+  pages={21},
+  year={2016},
+  publisher={ACM}
+}
+%% preconditioner low rank
+@article{napov2016algebraic,
+  title={An algebraic multifrontal preconditioner that exploits the low-rank property},
+  author={Napov, Artem and Li, Xiaoye S},
+  journal={Numerical Linear Algebra with Applications},
+  volume={23},
+  number={1},
+  pages={61--82},
+  year={2016},
+  publisher={Wiley Online Library}
+}
+
+%% software
+@misc{Ahmed2012,
+title = {{Another software library on hierarchical matrices for elliptic differential equations (AHMED)}},
+howpublished = {\url{http://bebendorf.ins.uni-bonn.de/AHMED.html}},
+key = Ahmed
+}
+
+@misc{Hlib,
+title="Hierarchical Matrices",
+howpublished={\url{http://hlib.org}},
+key = HLib
+}
+
+@misc{HlibPro,
+title={{$\mathcal{H}$-Lib Pro}},
+howpublished={\url{http://www.hlibpro.com/}},
+key = HLibPro
+}
+
+@misc{H2lib,
+title={{$\mathcal{H}^2$-Lib}},
+howpublished={\url{http://h2lib.org}},
+key = H2Lib
+}
+
+
+%% sparse hmat
+@article{grasedyck2009domain,
+	author={Grasedyck, L. and Kriemann, R. and Le Borne, S.},
+	title={Domain decomposition based $\mathcal{H}$-{LU} preconditioning},
+	year={2009},
+	journal={Numerische Mathematik},
+	volume={112},
+	pages={565–600},
+}
+@incollection{leborne2007domain,
+  title={Domain-decomposition {B}ased $\mathcal{H}$-{LU} {P}reconditioners},
+  author={Le Borne, Sabine and Grasedyck, Lars and Kriemann, Ronald},
+  booktitle={Domain decomposition methods in science and engineering XVI},
+  pages={667--674},
+  year={2007},
+  publisher={Springer}
+}
+@article{ibragimov2007hierarchical,
+  title={{Hierarchical Cholesky decomposition of sparse matrices arising from curl--curl-equation}},
+  author={Ibragimov, Ilgis and Rjasanow, Sergej and Straube, Katharina},
+  journal={Journal of Numerical Mathematics JNMA},
+  volume={15},
+  number={1},
+  pages={31--57},
+  year={2007}
+}
+
+@article{kriemann2013hlu,
+  title={$\mathcal{H}$-{LU} factorization on many-core systems},
+  author={Kriemann, Ronald},
+  journal={Computing and Visualization in Science},
+  volume={16},
+  number={3},
+  pages={105--117},
+  year={2013},
+  publisher={Springer}
+}
+@ARTICLE{yang2018hlu,
+author={M. {Yang} and R. {Liu} and H. {Gao} and X. {Sheng}},
+journal={IEEE Transactions on Antennas and Propagation},
+title={{On the$\mathcal{H}$-LU-Based Fast Finite Element Direct Solver for 3-D Scattering Problems}},
+year={2018},
+volume={66},
+number={7},
+pages={3792-3797},
+keywords={computational complexity;electrodynamics;finite element analysis;sparse matrices;3-D inhomogeneous objects;FE method;moment method;weaker admissibility condition;reduction scheme;electrodynamic scattering problem;FE direct solver;quasistatic problem;electrodynamic problem;nested dissection;memory complexity;direct sparse solvers;H-LU-based fast finite element direct solver;3-D scattering problems;CPU time complexity;Finite element analysis;Sparse matrices;Scattering;Matrix decomposition;Three-dimensional displays;Electrodynamics;Computational complexity;3-D scattering;direct solution;finite element methods (FEMs);H-matrix;nested dissection (ND)},
+doi={10.1109/TAP.2018.2823774},
+ISSN={0018-926X},
+month={July},}
+
+@article{chadwick2015efficient,
+  title={{An efficient solver for sparse linear systems based on rank-structured Cholesky factorization}},
+  author={Chadwick, Jeffrey N and Bindel, David S},
+  journal={arXiv preprint arXiv:1507.05593},
+  year={2015}
+}
+@inproceedings{pichon2017sparse,
+  title={{Sparse Supernodal Solver Using Block Low-Rank Compression}},
+  author={Pichon, Gr{\'e}goire and Darve, Eric and Faverge, Mathieu and Ramet, Pierre and Roman, Jean},
+  year={2017},
+  BOOKTITLE = {{PDSEC'2017 workshop of IPDPS}},
+    ADDRESS = {Orlando, United States},
+  YEAR = {2017},
+  MONTH = {May},
+}
+@article{pichon2018sparse,
+  title={Sparse supernodal solver using block low-rank compression: Design, performance and analysis},
+  author={Pichon, Gr{\'e}goire and Darve, Eric and Faverge, Mathieu and Ramet, Pierre and Roman, Jean},
+  journal={Journal of computational science},
+  volume={27},
+  pages={255--270},
+  year={2018},
+  publisher={Elsevier}
+}
+@phdthesis{pichon2018thesis,
+  TITLE = {{On the use of low-rank arithmetic to reduce the complexity of parallel sparse linear solvers based on direct factorization techniques}},
+  AUTHOR = {Pichon, Gr{\'e}goire},
+  URL = {https://hal.inria.fr/tel-01953908},
+  SCHOOL = {{Universit{\'e} de Bordeaux}},
+  YEAR = {2018},
+  MONTH = Nov,
+  KEYWORDS = {Linear sparse direct solver ; Block low-rank compression ; Parallelism ; Ordering ; Num{\'e}rotation ; Solveur lin{\'e}aire creux direct ; Compression block low-rank ; Parall{\'e}lisme},
+  PDF = {https://hal.inria.fr/tel-01953908/file/thesis_final.pdf},
+  HAL_ID = {tel-01953908},
+  HAL_VERSION = {v1},
+}
+@article{ho2016hierarchical,
+  title={Hierarchical interpolative factorization for elliptic operators: differential equations},
+  author={Ho, Kenneth L. and Ying, Lexing},
+  journal={Communications on Pure and Applied Mathematics},
+  volume={69},
+  number={8},
+  pages={1415--1451},
+  year={2016},
+  publisher={Wiley Online Library}
+}
+@article{cambier2019algebraic,
+  title={{An Algebraic Sparsified Nested Dissection Algorithm Using Low-Rank Approximations}},
+  author={Cambier, L{\'e}opold and Chen, Chao and Boman, Erik G. and Rajamanickam, Sivasankaran and Tuminaro, Raymond S. and Darve, Eric},
+  journal={arXiv preprint arXiv:1901.02971},
+  year={2019}
+}
+@inproceedings{agullo2015h,
+  title={{$\mathcal{H}$-Matrix Solver for FEM/BEM}},
+  author={Agullo, Emmanuel and Falco, Aur{\'e}lien and Giraud, Luc and Liz{\'e}, Beno{\^\i}t and Sylvand, Guillaume},
+  booktitle={CIMI Workshop on Fast Direct Solvers},
+  year={2015}
+}
+@inproceedings{falco2017compas,
+  TITLE = {{Vers une factorisation symbolique hi{\'e}rarchique de rang faible pour des matrices creuses}},
+  AUTHOR = {Agullo, Emmanuel and Falco, Aur{\'e}lien and Giraud, Luc and Sylvand, Guillaume},
+  URL = {https://hal.inria.fr/hal-01597072},
+  BOOKTITLE = {{Conf{\'e}rence d'informatique en Parall{\'e}lisme, Architecture et Syst{\`e}me (ComPAS'17)}},
+  ADDRESS = {Sophia Antipolis, France},
+  YEAR = {2017},
+  MONTH = Jun,
+  KEYWORDS = {Mots-cl{\'e}s : H-Matrice ; factorisation symbolique ; dissection embo{\^i}t{\'e}e ; matrice creuse ; alg{\`e}bre lin{\'e}aire ; compression},
+  PDF = {https://hal.inria.fr/hal-01597072/file/report.pdf},
+  HAL_ID = {hal-01597072},
+  HAL_VERSION = {v1},
+}
+@inproceedings{falco2018hierarchical,
+  TITLE = {{Hierarchical Symbolic Factorization for Sparse Matrices}},
+  AUTHOR = {Falco, Aur{\'e}lien and Agullo, Emmanuel and Giraud, Luc and Sylvand, Guillaume},
+  URL = {https://hal.inria.fr/hal-01999895},
+  BOOKTITLE = {{Sparse Days 2018}},
+  ADDRESS = {Toulouse, France},
+  YEAR = {2018},
+  MONTH = Sep,
+  PDF = {https://hal.inria.fr/hal-01999895/file/sparse_days_2018_presentation.pdf},
+  HAL_ID = {hal-01999895},
+  HAL_VERSION = {v1},
+}
+% TODO cite
+@ARTICLE{jia2018hmatrices,
+author={P. H. Jia and J. Hu and Y. Chen and R. Zhang and L. Lei and Z. Nie},
+journal={IEEE Transactions on Antennas and Propagation},
+title={{$\mathcal{H}$-Matrices Compressed Multiplicative Schwarz Preconditioner for Nonconformal FEM-BEM-DDM}},
+year={2018},
+volume={PP},
+number={99},
+pages={1-1},
+keywords={Antenna arrays;Convergence;Finite element analysis;MLFMA;Silicon;Sparse matrices;Symmetric matrices;FEM-BEM;H-matrices;Noconformal DDM;Schwarz preconditioner;antenna arrays},
+doi={10.1109/TAP.2018.2809697},
+ISSN={0018-926X},
+month={},}
+@phdthesis{falco2019thesis,
+  TITLE = {{Combler l'{\'e}cart entre H-Matrices et m{\'e}thodes directes creuses pour la r{\'e}solution de syst{\`e}mes lin{\'e}aires de grandes tailles}},
+  AUTHOR = {Falco, Aurélien},
+  URL = {https://tel.archives-ouvertes.fr/tel-02183902},
+  NUMBER = {2019BORD0090},
+  SCHOOL = {{Universit{\'e} de Bordeaux}},
+  YEAR = {2019},
+  MONTH = Jun,
+  KEYWORDS = {FEM/BEM coupling ; Sparse matrices ; H-Matrices ; Low-Rank compression ; Linear algebra ; Finite elements ; Matrices creuses ; Compression de rang faible ; Alg{\`e}bre lin{\'e}aire ; El{\'e}ments finis ; Couplage FEM/BEM},
+  TYPE = {Theses},
+  PDF = {https://tel.archives-ouvertes.fr/tel-02183902/file/FALCO_AURELIEN_2019.pdf},
+  HAL_ID = {tel-02183902},
+  HAL_VERSION = {v1},
+}
+@article{hsf-rr,
+  TITLE = {{Bridging the Gap Between H-Matrices and Sparse Direct Methods through a Hierarchical Symbolic Factorization}},
+  AUTHOR = {Falco, Aur{\'e}lien and Agullo, Emmanuel and Giraud, Luc and Sylvand, Guillaume},
+  ADDRESS = {Bordeaux, France},
+  JOURNAL={In preparation},
+  YEAR = {2023?},
+}
