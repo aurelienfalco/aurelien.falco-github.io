@@ -9,12 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-You can find my CV [here.](../files/cv_academic.pdf)
-
 Education
 ======
 * Ph.D in Applied Mathematics, Université de Bordeaux, 2019
+  * Efficient solution of a large linear system arising from a Finite and Boundary Element Methods coupling through the use of Hierarchical Matrices (H-Matrices) and sparse techniques (nested dissection, symbolic factorization) in a parallel environment.
 * M.S. in Computer Science, ENSEIRB-MATMECA, 2015
+  * Option: Parallelism, High Performance Computing
 
 Work experience
 ======
@@ -62,6 +62,10 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+Other interests
+===============
+
+I have participated to two estival editions of the [Spacebus](https://www.spacebusfrance.fr/) tour (2023 and 2024).
+This is a unique (and fun) opportunity to do scientific mediation around astronomy and astrophysics topics to a very large public.
+
+Due to the urgency of the global situation, I am also trying to do what I can in terms of climate activism, both in my professional and personal lives.
