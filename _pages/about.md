@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome, welcome, and enjoy your stay. Please have a seat!
+Welcome, please have a seat!
 
       i______i
       I______I

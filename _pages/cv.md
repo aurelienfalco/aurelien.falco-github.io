@@ -44,24 +44,26 @@ Skills
 * Skill 3 
 -->
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+<!-- Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+   -->
+
 Other interests
 ===============
 
@@ -69,3 +71,5 @@ I have participated to two estival editions of the [Spacebus](https://www.spaceb
 This is a unique (and fun) opportunity to do scientific mediation around astronomy and astrophysics topics to a very large public.
 
 Due to the urgency of the global situation, I am also trying to do what I can in terms of climate activism, both in my professional and personal lives.
+
+During my free time I thrive in writing and drawing but also enjoy hiking and playing games. 
