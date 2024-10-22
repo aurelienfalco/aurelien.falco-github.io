@@ -16,7 +16,7 @@ I am interested in the study of (exo-)planetary atmospheres, from Hot Jupiters, 
 My formation in numerical methods and High Performance Computing has allowed me  to plunge into the depths of large climate simulations.
 
 <div>
-<p style="line-height: 150%;>
+<pre style="line-height: 150%;">
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@+......:......:.:::-@@@@@@@@@@@@@@@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@*:.:...=-=:=::+*:=+=--=#==:-----%@@@@@@@@@@@@@@@@@@
