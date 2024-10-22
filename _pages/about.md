@@ -15,7 +15,10 @@ My research activities
 I am interested in the study of (exo-)planetary atmospheres, from Hot Jupiters, through Super-Earths, to good ol' [Pluto](https://www.youtube.com/watch?v=YJPHK5NNtpQ&pp=ygUWZG9uJ3QgdGFsayBhYm91dCBwbHV0bw%3D%3D).
 My formation in numerical methods and High Performance Computing has allowed me  to plunge into the depths of large climate simulations.
 
-<p style="line-height: 150%;>
+<div>
+<h2>My heading</h2>
+<p>Some text, some text, some more text.</p>
+<p>Some text, some text, some more text.</p>
           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
           @@@@@@@@@@@@@@@@@@@@@@@@@+......:......:.:::-@@@@@@@@@@@@@@@@@@@@@@@@@
           @@@@@@@@@@@@@@@@@@@*:.:...=-=:=::+*:=+=--=#==:-----%@@@@@@@@@@@@@@@@@@
@@ -44,7 +47,7 @@ My formation in numerical methods and High Performance Computing has allowed me 
           @@@@@@@@@@@@@@@@@@@@@@+=+:-:-==.#.=*=@##*#*%%@@@@@@@@@@@@@@@@@@@@@@@@@
           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-</p>
+</div>
 
 <!--
 Create content & metadata
